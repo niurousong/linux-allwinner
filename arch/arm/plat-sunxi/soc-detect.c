@@ -55,7 +55,7 @@ int sunxi_pr_brom(void)
 			brom->platform);
 		return 1;
 	}
-	pr_err("BROM not found");
+	pr_err("BROM not found\n");
 	return 0;
 }
 
@@ -107,7 +107,7 @@ static inline void _pr_ic_ver(enum sw_ic_ver ver)
 		return;
 	}
 
-	pr_info("Allwinner %s revision %c detected.",
+	pr_info("Allwinner %s revision %c detected.\n",
 		name, 'A' + rev);
 }
 
