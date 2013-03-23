@@ -84,6 +84,7 @@ static inline int sunxi_is_a13(void)
 		return 1;
 	default:
 		return 0;
+	}
 }
 static inline int sunxi_is_a12(void)
 {
@@ -93,6 +94,7 @@ static inline int sunxi_is_a12(void)
 		return 1;
 	default:
 		return 0;
+	}
 }
 static inline int sunxi_is_a10s(void)
 {
@@ -102,6 +104,7 @@ static inline int sunxi_is_a10s(void)
 		return 1;
 	default:
 		return 0;
+	}
 }
 #define sunxi_is_a10()	(0)
 #endif
